@@ -1,5 +1,4 @@
 (function () {
-  "use strict";
 
   var NAV_HEIGHT = 70;
 
@@ -17,10 +16,10 @@
     }
 
     if (document.readyState === "complete") {
-      setTimeout(hideLoader, 600);
+      setTimeout(hideLoader, 60);
     } else {
       window.addEventListener("load", function () {
-        setTimeout(hideLoader, 600);
+        setTimeout(hideLoader, 60);
       });
     }
   }
