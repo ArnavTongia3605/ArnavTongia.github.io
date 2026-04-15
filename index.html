@@ -165,19 +165,27 @@
   <h3 class="project-title">CartForge – E-Commerce Backend Application</h3>
   
   <p class="project-desc">
-    Developed a backend application for an e-commerce platform using <strong>Spring Boot</strong>. 
-    Implemented secure <strong>JWT-based authentication</strong> for user login and protected APIs. 
-    Built core features including product management and shopping cart functionality using 
-    <strong>RESTful APIs</strong> with a modular architecture. Integrated <strong>PostgreSQL</strong> 
-    for data persistence and tested APIs using Postman.
-  </p>
-  
-  <ul class="project-tech">
-    <li>Spring Boot</li>
-    <li>Spring Security</li>
-    <li>PostgreSQL</li>
-    <li>JWT</li>
-  </ul>
+  Developed a scalable backend application for an e-commerce platform using <strong>Spring Boot</strong>. 
+  Implemented secure <strong>JWT-based authentication and authorization</strong> with 
+  <strong>role-based access control (ADMIN/USER)</strong> using Spring Security.
+
+  Built complete <strong>Product Management</strong> APIs with full CRUD operations, where ADMIN users can create, update, and delete products, while USERs can only view them.
+
+  Designed a secure <strong>Cart Management system</strong> with user-specific operations (add, view, update, remove items), ensuring data isolation by extracting user identity from JWT instead of client input.
+
+  Applied <strong>input validation</strong> using Jakarta Validation and followed a clean layered architecture (Controller, Service, Repository).
+
+  Integrated <strong>PostgreSQL</strong> with Spring Data JPA for efficient data persistence and tested APIs using Postman.
+</p>
+
+<ul class="project-tech">
+  <li>Spring Boot</li>
+  <li>Spring Security</li>
+  <li>Spring Data JPA</li>
+  <li>PostgreSQL</li>
+  <li>JWT</li>
+  <li>REST APIs</li>
+</ul>
   
   <div class="project-links">
     <a href="https://github.com/ArnavTongia3605/CartForge" target="_blank" rel="noopener" aria-label="GitHub">
